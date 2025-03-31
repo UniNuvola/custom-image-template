@@ -1,3 +1,11 @@
 FROM quay.io/uninuvola/base:main
 
-RUN apt-get update
+# DO NOT EDIT USER VALUE
+USER root
+
+## -- ADD YOUR CODE HERE !! -- ##
+
+## --------------------------- ##
+
+# DO NOT EDIT USER VALUE
+USER jovyan
